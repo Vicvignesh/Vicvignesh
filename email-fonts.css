@@ -1,0 +1,22 @@
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+.special-price .price-label .label {
+  border: 0;
+  color: red;
+}
+@media screen {
+  @font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon/icomoon.woff2') format('woff2'), url('../fonts/icomoon/icomoon.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: auto;
+  }
+  .items {
+    margin: 0;
+    padding: 0;
+    list-style: none none;
+  }
+}
